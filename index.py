@@ -7,6 +7,9 @@ def index(request):
 def login(request):
     return django.Http.HttpResponse("login.html")
 
+def register(request):
+    return django.Http.HttpResponse("res.html")
+
 
 if __name__ == "__main__":
     main()
